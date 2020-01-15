@@ -141,11 +141,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../2iemeAnnee/Ydays/Symfony/eCommerce_Symfony/website-skeleton" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\theod\Desktop\Ynov\Projets Perso\symbnb\templates" />
       <recent name="C:\Users\theod\Desktop\Ynov\Projets Perso\symbnb\templates\partials" />
     </key>
   </component>
@@ -178,7 +179,9 @@
       <workItem from="1578578053035" duration="46000" />
       <workItem from="1578583069747" duration="3022000" />
       <workItem from="1578663862087" duration="33000" />
-      <workItem from="1578843631757" duration="2657000" />
+      <workItem from="1578843631757" duration="9769000" />
+      <workItem from="1578994937983" duration="2086000" />
+      <workItem from="1579076320282" duration="14608000" />
     </task>
     <servers />
   </component>
@@ -186,10 +189,15 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="211" key="FileChooserDialogImpl" timestamp="1578663893523">
+    <state x="210" y="277" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1578848309740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578663893523" />
+    <state x="210" y="277" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578848309740" />
+    <state x="690" y="211" key="FileChooserDialogImpl" timestamp="1579085796990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="211" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578998996708" />
+    <state x="690" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579085796990" />
     <state x="483" y="141" key="SettingsEditor" timestamp="1578313222683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -198,14 +206,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1578843862723" />
-    <state x="576" y="20" width="768" height="999" key="find.popup" timestamp="1578490761638">
+    <state x="576" y="20" width="768" height="999" key="find.popup" timestamp="1579093629562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="576" y="20" width="768" height="999" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578490761638" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1578845277449">
+    <state x="576" y="20" width="768" height="999" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579093629562" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1579097090313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578328822001" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578845277449" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578999936556" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579097090313" />
   </component>
 </project>
