@@ -141,7 +141,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../2iemeAnnee/Ydays/Symfony/eCommerce_Symfony/website-skeleton" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
@@ -181,7 +181,11 @@
       <workItem from="1578663862087" duration="33000" />
       <workItem from="1578843631757" duration="9769000" />
       <workItem from="1578994937983" duration="2086000" />
-      <workItem from="1579076320282" duration="14608000" />
+      <workItem from="1579076320282" duration="16559000" />
+      <workItem from="1579100428517" duration="1330000" />
+      <workItem from="1579102909899" duration="2476000" />
+      <workItem from="1579182126760" duration="615000" />
+      <workItem from="1579681660552" duration="2137000" />
     </task>
     <servers />
   </component>
@@ -193,11 +197,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="210" y="277" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578848309740" />
-    <state x="690" y="211" key="FileChooserDialogImpl" timestamp="1579085796990">
+    <state x="690" y="211" key="FileChooserDialogImpl" timestamp="1579183754569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="211" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578998996708" />
-    <state x="690" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579085796990" />
+    <state x="690" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579183754569" />
     <state x="483" y="141" key="SettingsEditor" timestamp="1578313222683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -210,10 +214,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="576" y="20" width="768" height="999" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579093629562" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1579097090313">
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1579683001831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578999936556" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579097090313" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579683001831" />
   </component>
 </project>
