@@ -141,13 +141,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../2iemeAnnee/Ydays/Symfony/eCommerce_Symfony/README.md" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\theod\Desktop\Ynov\Projets Perso\symbnb\templates\admin\booking" />
+      <recent name="C:\Users\theod\Desktop\Ynov\Projets Perso\symbnb\templates\admin\comment" />
+      <recent name="C:\Users\theod\Desktop\Ynov\Projets Perso\symbnb\templates\admin\account" />
+      <recent name="C:\Users\theod\Desktop\Ynov\Projets Perso\symbnb\templates\admin\ad" />
       <recent name="C:\Users\theod\Desktop\Ynov\Projets Perso\symbnb\templates" />
-      <recent name="C:\Users\theod\Desktop\Ynov\Projets Perso\symbnb\templates\partials" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -185,7 +188,12 @@
       <workItem from="1579100428517" duration="1330000" />
       <workItem from="1579102909899" duration="2476000" />
       <workItem from="1579182126760" duration="615000" />
-      <workItem from="1579681660552" duration="20407000" />
+      <workItem from="1579681660552" duration="21387000" />
+      <workItem from="1579784725393" duration="52000" />
+      <workItem from="1579784868302" duration="279000" />
+      <workItem from="1580892455265" duration="18525000" />
+      <workItem from="1580980900214" duration="8828000" />
+      <workItem from="1581342781449" duration="11791000" />
     </task>
     <servers />
   </component>
@@ -197,31 +205,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1102" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579706187176" />
-    <state x="210" y="277" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1578848309740">
+    <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579784750753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="210" y="277" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578848309740" />
-    <state x="690" y="211" key="FileChooserDialogImpl" timestamp="1579183754569">
+    <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579784750753" />
+    <state x="210" y="277" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1581353172886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="210" y="277" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581353172886" />
+    <state x="210" y="277" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580988593365" />
+    <state x="690" y="211" key="FileChooserDialogImpl" timestamp="1580981113903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="211" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578998996708" />
-    <state x="690" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579183754569" />
-    <state x="483" y="141" key="SettingsEditor" timestamp="1578313222683">
+    <state x="690" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580981113903" />
+    <state x="490" y="158" width="998" height="708" key="SettingsEditor" timestamp="1581358531900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="141" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578313222683" />
+    <state x="490" y="158" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581358531900" />
+    <state x="597" y="168" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580894191635" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1578843862723">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1578843862723" />
-    <state x="675" y="29" width="768" height="999" key="find.popup" timestamp="1579698968111">
+    <state x="722" y="41" width="768" height="999" key="find.popup" timestamp="1581360632745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="675" y="29" width="768" height="999" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579698968111" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1579708887972">
+    <state x="722" y="41" width="768" height="999" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581360632745" />
+    <state x="722" y="41" width="768" height="999" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580989235638" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1581361381146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578999936556" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579708887972" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581361381146" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580985211091" />
   </component>
 </project>

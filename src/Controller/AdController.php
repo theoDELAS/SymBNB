@@ -3,10 +3,9 @@
 namespace App\Controller;
 
 use App\Entity\Ad;
-use App\Entity\Image;
 use App\Form\AdType;
 use App\Repository\AdRepository;
-use Doctrine\Persistence\ObjectManager;
+use Doctrine\ORM\EntityManagerInterface;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -88,7 +87,7 @@ class AdController extends AbstractController
      * @param Request $request
      * @return Response
      */
-    public function edit(Ad $ad, Request $request)
+    public function edit(Ad $ad, Request $request, EntityManagerInterface $manager)
     {
         $form = $this->createForm(AdType::class, $ad);
 
@@ -96,8 +95,6 @@ class AdController extends AbstractController
 
         if($form->isSubmitted() && $form->isValid())
         {
-            $manager = $this->getDoctrine()->getManager();
-
             foreach($ad->getImages() as $image) {
                 $image->setAd($ad);
                 $manager->persist($image);
