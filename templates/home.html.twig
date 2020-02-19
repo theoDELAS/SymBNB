@@ -17,106 +17,30 @@
         <h2 class="h1 my-5">Nos appartements stars</h2>
 
         <div class="row">
-            <div class="col-md-4">
-                <div class="card bg-light mb-3">
-                    <div class="card-header text-center">
-                        3 chambres, <strong>49&euro; / nuit</strong> <br>
-                        <small>Pas encore noté</small>
-                    </div>
-                    <img src="https://picsum.photos/id/45/1000/400"
-                         alt="image de l'appartement"
-                         style="heigh: 200px; width: 100%; display: block">
-
-                    <div class="card-body">
-                        <h4 class="card-title">
-                            Appartement de ouf
-                        </h4>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, debitis delectus earum illum maiores modi nam nulla sed suscipit velit.
-                        </p>
-                        <a href="#" class="btn btn-secondary">En savoir plus</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card bg-light mb-3">
-                    <div class="card-header text-center">
-                        3 chambres, <strong>49&euro; / nuit</strong> <br>
-                        <small>Pas encore noté</small>
-                    </div>
-                    <img src="https://picsum.photos/id/75/1000/400"
-                         alt="image de l'appartement"
-                         style="heigh: 200px; width: 100%; display: block">
-
-                    <div class="card-body">
-                        <h4 class="card-title">
-                            Appartement de ouf
-                        </h4>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, debitis delectus earum illum maiores modi nam nulla sed suscipit velit.
-                        </p>
-                        <a href="#" class="btn btn-secondary">En savoir plus</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card bg-light mb-3">
-                    <div class="card-header text-center">
-                        3 chambres, <strong>49&euro; / nuit</strong> <br>
-                        <small>Pas encore noté</small>
-                    </div>
-                    <img src="https://picsum.photos/id/143/1000/400"
-                         alt="image de l'appartement"
-                         style="heigh: 200px; width: 100%; display: block">
-
-                    <div class="card-body">
-                        <h4 class="card-title">
-                            Appartement de ouf
-                        </h4>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, debitis delectus earum illum maiores modi nam nulla sed suscipit velit.
-                        </p>
-                        <a href="#" class="btn btn-secondary">En savoir plus</a>
-                    </div>
-                </div>
-            </div>
+            {% for data in ads %}
+                {% include 'ad/_ad.html.twig' with {'ad': data.annonce} %}
+            {% endfor %}
         </div>
 
         <h2 class="h1 my-5">Nos propriétaires stars</h2>
-
         <div class="row">
+            {% for data in users %}
             <div class="col">
                 <div class="card border-secondary mb-3">
                     <div class="card-body">
-                        <h4 class="card-title">Théo Delas</h4>
+                        <h4 class="card-title">{{ data.user.fullName }}</h4>
                         
                         <hr>
                         
                         <div class="card-text">
-                            <img src="https://picsum.photos/id/12/64/64" alt="Avatar de Théo" class="float-left mr-3">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, molestiae.</p>
-                            <a href="#" class="btn btn-success float-right">En savoir plus</a>
+                            <img src="{{ data.user.picture }}" alt="Avatar de {{ data.user.fullName }}" class="float-left mr-3">
+                            <p>{{ data.user.introduction }}</p>
+                            <a href="{{ path('user_show', {'slug': data.user.slug}) }}" class="btn btn-success float-right">En savoir plus</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card border-secondary mb-3">
-                    <div class="card-body">
-                        <h4 class="card-title">Théo Delas</h4>
-
-                        <hr>
-
-                        <div class="card-text">
-                            <img src="https://picsum.photos/id/12/64/64" alt="Avatar de Théo" class="float-left mr-3">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, molestiae.</p>
-                            <a href="#" class="btn btn-success float-right">En savoir plus</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {% endfor %}
         </div>
     </div>
 {% endblock %}
